@@ -126,7 +126,7 @@ function Hello(props) {
 
 function HelloWorld() {
   // Correct! React knows <Hello /> is a component because it's capitalized.
-  return <Hello toWhat="World" />;
+  return <Hello toWhat="" />;
 }
 ```
 
